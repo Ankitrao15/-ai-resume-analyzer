@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Resume Analyzer</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">Resume<span>Lens</span></a>
+    <span class="pill">Portfolio Demo · v1.0</span>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">CAREER TOOLKIT</p>
+      <h1>Make your resume<br><span>work harder.</span></h1>
+      <p class="subhead">Review resume structure, discover skills, and compare your profile with a target job description in seconds.</p>
+    </section>
+    <section class="workspace">
+      <form id="analyze-form" class="panel">
+        <label for="resume-file">Upload your resume</label>
+        <p class="hint">PDF, DOCX or TXT · Maximum 5 MB</p>
+        <div class="upload-wrap">
+          <input id="resume-file" name="resume" type="file" accept=".pdf,.docx,.txt" required>
+        </div>
+        <label for="job-description">Target job description <span class="optional">Optional</span></label>
+        <textarea id="job-description" name="job_description" rows="8" placeholder="Paste the job description to compare its skills with your resume..."></textarea>
+        <button type="submit" id="submit-button">Analyze resume <span>→</span></button>
+        <p class="privacy-note">Your file is processed by this local app and is not saved to disk by the analyzer.</p>
+        <div id="error" class="error" role="alert" hidden></div>
+      </form>
+      <section id="results" class="results" aria-live="polite">
+        <div class="empty-state">
+          <div class="empty-icon">✦</div>
+          <h2>Your review appears here</h2>
+          <p>Upload a resume to get a practical checklist, skill inventory, and optional job-match analysis.</p>
+        </div>
+      </section>
+    </section>
+    <section class="footnote">
+      <strong>Built for better preparation, not automated hiring.</strong>
+      <p>The score is an explainable checklist metric—not an ATS score, hiring prediction, or guarantee. Never misrepresent your experience.</p>
+    </section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

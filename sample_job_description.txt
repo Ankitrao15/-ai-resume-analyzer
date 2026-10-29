@@ -1,0 +1,2 @@
+Python Developer Intern
+We are looking for a junior Python developer with Python, FastAPI, REST API, SQL, PostgreSQL, Git, and data analysis knowledge. Familiarity with Pandas, NumPy, machine learning, testing, and clear technical documentation is a plus. The candidate should demonstrate problem solving and teamwork through projects or internship experience.

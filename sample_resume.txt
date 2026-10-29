@@ -1,0 +1,33 @@
+ANKIT YADAV
+Python Developer | AI and Data Analytics
+ankit.yadav@example.com | +91 98765 43210
+LinkedIn: linkedin.com/in/example | GitHub: github.com/example
+
+PROFESSIONAL SUMMARY
+Entry-level Python developer with hands-on internship experience building API-based applications and data analysis projects. Interested in backend engineering, automation, and practical AI tools.
+
+TECHNICAL SKILLS
+Python, FastAPI, REST API, Pandas, NumPy, scikit-learn, SQL, PostgreSQL, Git, GitHub, HTML, CSS, Machine Learning, Data Analysis
+
+EXPERIENCE
+Python / AI Intern | Example Technology
+- Developed REST API endpoints using FastAPI and validated request data.
+- Automated data cleaning with Pandas, reducing repetitive manual work by 25%.
+- Tested API routes and documented setup instructions for team members.
+
+PROJECTS
+AI Resume Analyzer
+- Built a resume analysis application using Python and FastAPI.
+- Implemented skill matching and actionable recommendations.
+- Added automated tests for health checks and analysis results.
+
+Property Price Prediction
+- Created a machine learning model using scikit-learn and Pandas.
+- Analyzed dataset features and evaluated prediction error.
+
+EDUCATION
+B.Tech, Computer Science and Engineering
+Example University | 2022–2026
+
+CERTIFICATIONS
+Python Programming | Data Analytics and Visualization
